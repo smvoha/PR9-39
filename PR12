@@ -1,0 +1,159 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(0, "");
+    int a;
+    int b;
+    int d;
+    int m = 1;
+    int i = 0;
+    int o;
+    string c;
+    cout << " [ + ] Программа - “Геометрические фигуры”\nВыберите фигуру\n[ 1 ] линия\n[ 2 ] Квадрат\n[ 3 ] Прямоугольник\n [ 4 ] Треугольник\n ";
+
+    cin >> a;
+    system("cls");
+    switch (a) {
+    case 1:
+        cout << "[ + ] Фигура: “Линия”\n [ 1 ] Горизонтальная\n [ 2 ] Вертикальная\n";
+        cin >> b;
+        switch (b) {
+        case 1:
+            cout << "Введите длину линии\n";
+            cin >> d;
+            cout << "Введите текстуру линии\n";
+            cin >> c;
+            while (d > m) {
+                cout << c;
+                m++;
+            }
+            break;
+        case 2:
+            cout << "Введите длину линии\n";
+            cin >> d;
+            cout << "Введите текстуру линии\n";
+            cin >> c;
+            while (d > m) {
+                cout << c << endl;
+                m++;
+            }
+            break;
+        default: cout << "Неверное число\n\n\n";
+            main();
+            break;
+        }
+        break;
+
+
+
+
+    case 2:
+        cout << "[ + ] Фигура: “Квадрат”\n [ 1 ] Заполненный\n [ 2 ] Пустой\n";
+        cin >> b;
+
+        cout << "Введите длину/высоту\n";
+        cin >> d;
+        cout << "Введите текстуру линии\n";
+        cin >> c;
+        while (d > i) {
+            int j = 0;
+            while (j < d) {
+                if (i == 0 || i == d - 1 || j == 0 || j == d - 1) {
+                    cout << c;
+                }
+                else if (d == 1) {
+                    cout << c;
+                }
+                else {
+                    cout << " ";
+                }
+                j++;
+            }
+            cout << endl;
+            i++;
+        }
+        break;
+
+    case 3:
+        cout << "[ + ] Фигура: “Прямоугольник”\n [ 1 ] Заполненный\n [ 2 ] Пустой\n";
+        cin >> b;
+
+        cout << "Введите длину\n";
+        cin >> d;
+        cout << "Введите высоту\n";
+        cin >> o;
+        cout << "Введите текстуру линии\n";
+        cin >> c;
+        if (d == 0)
+            cout << "Высота в прямоугольнике не может быть равна длине";
+        
+        else
+            switch (b) {
+            case 1:
+                for (int s = 0; s < o; s++) {
+                    for (int s1 = 0; s1 < d; s1++) {
+                        cout << c;
+                    }
+                    cout << endl;
+                }
+
+                break;
+            case 2:
+                for (int s = 0; s < o; s++) {
+                    if (s == 0 || s == o - 1) {
+                        int p = 0;
+                        while (p < d) {
+                            cout << c;
+                            p++;
+                        }
+                    }
+                    else
+                        for (int s1 = 0; s1 < d; s1++) {
+                            if (s1 == 0 || s1 == d - 1) {
+                                cout << c;
+                            }
+                            else
+                                cout << " ";
+                        }
+                    cout << endl;
+                }
+
+
+
+                break;
+
+
+           
+
+            default:cout << "Неправильно";
+                main();
+                break;
+            }
+       
+        break;
+    case 4:
+        cout << "[ + ] Фигура: “Треугольник”\n [ 1 ] Заполненный\n [ 2 ] Пустой\n";
+        cin >> b;
+
+        cout << "Введите высоту\n";
+        cin >> d;
+        cout << "Введите текстуру линии\n";
+        cin >> c;
+        int l = d / 2;
+        int y=0;
+        int w=0;
+        while (d>y)
+        {
+            if (y = 0) {
+                while (l > y) {
+                    cout << " ";
+                    y++;
+                }
+           }
+        }
+
+    default:cout << "Неправильно";
+        main();
+        break;
+    }
