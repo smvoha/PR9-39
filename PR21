@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+int c = 0;
+int b = 1;
+void randnum() {
+	int num;
+	if (c == 3) {
+		cout << "Вы победили!";
+	}
+	else
+	 if (b < 5) {
+		int rn = rand() % 10 + 1;
+		cout << "[ + ] Угаданных чисел: [ " << c;
+		cout << " /3]\n[ + ] Попыток: [ " << 5 - (b - 1);
+		cout << " ]\n\n[ > ] Угадать число:";
+		cin >> num;
+		if (rn == num) {
+			system("cls");
+			cout << "[ + ] Вы угадали число!\n\n";
+			c++;
+			b++;
+			randnum();
+		}
+		else
+			system("cls");
+		cout << "[ - ] Вы не угадали число!Было - " << rn << endl;
+		b++;
+		randnum();
+	}
+	else
+		system("cls");
+		cout << "Вы использовали все попытки\n";
+}
+int main()
+{
+	
+	setlocale(0, "");
+	int i = 0;
+	int a;
+	if (i == 0) {
+		cout << "[ Меню ]\n[ 1 ]- Начать игру\n[ 2 ]- выйти\n";
+		cin >> a;
+		switch (a) {
+		case 1:
+			system("cls");
+			randnum();
+			break;
+		case 2:
+			system("cls");
+			cout << "Удачи!";
+			break;
+		default:
+			cout << "что";
+			break;
+		}
+
+		i++;
+	}
+}
+
+
