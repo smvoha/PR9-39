@@ -1,0 +1,126 @@
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(0, ""); \
+        int a;
+    int b;
+    int c;
+    cout << "Русский язык- 1\n Анлийский язык - 2\n Выход - 3\n";
+    cin >> a;
+    switch (a) {
+    case 1:
+           
+            cout << "Выберите русские слова\n Дорога - 1 \n Сумка - 2\n зеленный - 3 \n Апельсин - 4\n Красный - 5 \n Дверь - 6\n человек - 7 \n Собака - 8\n Стекло - 9 \n Кошка - 10\n Фиолетовый - 11 \n Подсолнух - 12\n Птица - 13 \n Черный - 14\n Белый - 15\n";
+            cin >> b;
+            switch (b) {
+            case 1:
+                cout << "Дорога - road\n";
+                break;
+            case 2:
+                cout << "Сумка-Bag\n";
+                break;
+            case 3:
+                cout << "зеленный - green\n";
+                break;
+            case 4:
+                cout << "Апельсин - orange\n";
+                break;
+            case 5:
+                cout << "Красный - red\n";
+                break;
+            case 6:
+                cout << "Дверь - Door\n";
+                break;
+            case 7:
+                cout << "человек - human\n";
+                break;
+            case 8:
+                cout << " Собака - dog\n";
+                break;
+            case 9:
+                cout << "Стекло - Glass\n";
+                break;
+            case 10:
+                cout << "Кошка - cat\n";
+                break;
+            case 11:
+                cout << "Фиолетовый - purple\n";
+                break;
+            case 12:
+                cout << "Подслонух - subflower\n";
+                break;
+            case 13:
+                cout << "Птица - bird\n";
+                break;
+            case 14:
+                cout << "Черный - black\n";
+                break;
+            case 15:
+                cout << "Белый - white\n";
+                break;
+            default: cout << "нету такого числа\n\n";
+                break;
+        }
+    case 2:
+                
+                cout << "Выберите английсике слова\n Road - 1 \n Bag - 2\ngreen - 3 \n orange - 4\nRed - 5 \n Door - 6\nhuman - 7 \n dog - 8\nglass - 9  \ncat - 10 \n purple -12\nbird - 13 \n black - 14\nwhite - 15 \n";
+                cin >> c;
+                switch (c) {
+                case 1:
+                    cout << "Дорога - road\n";
+                    break;
+                case 2:
+                    cout << "Сумка-Bag\n";
+                    break;
+                case 3:
+                    cout << "зеленный - green\n";
+                    break;
+                case 4:
+                    cout << "Апельсин - orange\n";
+                    break;
+                case 5:
+                    cout << "Красный - red\n";
+                    break;
+                case 6:
+                    cout << "Дверь - Door\n";
+                    break;
+                case 7:
+                    cout << "человек - human\n";
+                    break;
+                case 8:
+                    cout << " Собака - dog\n";
+                    break;
+                case 9:
+                    cout << "Стекло - Glass\n";
+                    break;
+                case 10:
+                    cout << "Кошка - cat\n";
+                    break;
+                case 11:
+                    cout << "Фиолетовый - purple\n";
+                    break;
+                case 12:
+                    cout << "Подслонух - subflower\n";
+                    break;
+                case 13:
+                    cout << "Птица - bird\n";
+                    break;
+                case 14:
+                    cout << "Черный - black\n";
+                    break;
+                case 15:
+                    cout << "Белый - white\n";
+                    break;
+                default: cout << "нету такого числа\n\n";
+                }
+    case 3:
+        system("exit");
+        break;
+    default: cout << "Нету такого числа в предоставленном списке";
+        break;
+    }
+
+}
