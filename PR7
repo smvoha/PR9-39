@@ -1,0 +1,1293 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int m;
+    setlocale(0, "");
+    std::cout << "Введите номер месяца из вариантов приведенных ниже :\n1 - Январь\n2 - Февраль\n3 - Март\n4 - Апрель\n5 - Май\n6 - Июнь\n7 - Июнь\n8 - Август\n9 -Сентябрь\n10 - Октябрь\n11 - Ноябрь\n12 - Декабрь\n";
+    cin >> m;
+    int d;
+        switch (m)
+        {
+            
+        case 1:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Январья";
+                    break;
+            case 2:
+                cout << 2 << "ое " << "Январья";
+                    break;
+            case 3:
+                cout << 3 << "ое " << "Январья";
+                    break;
+            case 4:
+                cout << 4 << "ое " << "Январья";
+                    break;
+            case 5:
+                cout << 5 << "ое " << "Январья";
+                    break;
+            case 6:
+                cout << 6 << "ое " << "Январья";
+                    break;
+            case 7:
+                cout << 7 << "ое " << "Январья";
+                    break;
+            case 8:
+                cout << 8 << "ое " << "Январья";
+                    break;
+            case 9:
+                cout << 9 << "ое " << "Январья";
+                    break;
+            case 10:
+                cout << 10 << "ое " << "Январья";
+                    break;
+            case 11:
+                cout << 11 << "ое " << "Январья";
+                    break;
+            case 12:
+                cout << 12 << "ое " << "Январья";
+                    break;
+            case 13:
+                cout << 13 << "ое " << "Январья";
+                    break;
+            case 14:
+                cout << 14 << "ое " << "Январья";
+                    break;
+            case 15:
+                cout << 15 << "ое " << "Январья";
+                    break;
+            case 16:
+                cout << 16 << "ое " << "Январья";
+                    break;
+            case 17:
+                cout << 17 << "ое " << "Январья";
+                    break;
+            case 18:
+                cout << 18 << "ое " << "Январья";
+                    break;
+            case 19:
+                cout << 19 << "ое " << "Январья";
+                    break;
+            case 20:
+                cout << 20 << "ое " << "Январья";
+                    break;
+            case 21:
+                cout << 21 << "ое " << "Январья";
+                    break;
+            case 22:
+                cout << 22 << "ое " << "Январья";
+                    break;
+            case 23:
+                cout << 23 << "ое " << "Январья";
+                    break;
+            case 24:
+                cout << 24 << "ое " << "Январья";
+                    break;
+            case 25:
+                cout << 25 << "ое " << "Январья";
+                    break;
+            case 26:
+                cout << 26 << "ое " << "Январья";
+                    break;
+            case 27:
+                cout << 27 << "ое " << "Январья";
+                    break;
+            case 28:
+                cout << 28 << "ое " << "Январья";
+                    break;
+            case 29:
+                cout << 29 << "ое " << "Январья";
+                    break;
+            case 30:
+                cout << 30 << "ое " << "Январья";
+                    break;
+            case 31:
+                cout << 31 << "ое " << "Январья";
+                    break;
+          
+          
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+            }
+
+
+            break;
+        case 2:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Февраля";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Февраля";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Февраля";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Февраля";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Февраля";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Февраля";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Февраля";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Февраля";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Февраля";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Февраля";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Февраля";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Февраля";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Февраля";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Февраля";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Февраля";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Февраля";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Февраля";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Февраля";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Февраля";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Февраля";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Февраля";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Февраля";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Февраля";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Февраля";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Февраля";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Февраля";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Февраля";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Февраля";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Февраля";
+                break;
+  
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+            }
+            }
+
+            break;
+        case 3:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Марта";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Марта";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Марта";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Марта";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Марта";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Марта";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Марта";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Марта";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Марта";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Марта";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Марта";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Марта";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Марта";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Марта";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Марта";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Марта";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Марта";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Марта";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Марта";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Марта";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Марта";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Марта";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Марта";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Марта";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Марта";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Марта";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Марта";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Марта";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Марта";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Марта";
+                break;
+            case 31:
+                cout << 31 << "ое " << "Марта";
+                break;
+
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+            }
+
+            break;
+        case 4:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Апреля";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Апреля";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Апреля";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Апреля";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Апреля";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Апреля";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Апреля";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Апреля";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Апреля";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Апреля";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Апреля";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Апреля";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Апреля";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Апреля";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Апреля";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Апреля";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Апреля";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Апреля";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Апреля";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Апреля";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Апреля";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Апреля";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Апреля";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Апреля";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Апреля";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Апреля";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Апреля";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Апреля";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Апреля";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Апреля";
+                break;
+            
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+            }
+
+            }
+
+            break;
+        case 5:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Май";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Май";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Май";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Май";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Май";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Май";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Май";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Май";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Май";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Май";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Май";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Май";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Май";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Май";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Май";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Май";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Май";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Май";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Май";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Май";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Май";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Май";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Май";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Май";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Май";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Май";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Май";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Май";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Май";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Май";
+                break;
+            case 31:
+                cout << 31 << "ое " << "Май";
+                break;
+
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+            }
+            
+            break;
+        case 6:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Июня";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Июня";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Июня";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Июня";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Июня";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Июня";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Июня";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Июня";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Июня";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Июня";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Июня";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Июня";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Июня";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Июня";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Июня";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Июня";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Июня";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Июня";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Июня";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Июня";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Июня";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Июня";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Июня";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Июня";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Июня";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Июня";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Июня";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Июня";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Июня";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Июня";
+                break;
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+            }
+
+            }
+
+            break;
+        case 7:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Июля";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Июля";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Июля";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Июля";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Июля";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Июля";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Июля";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Июля";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Июля";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Июля";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Июля";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Июля";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Июля";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Июля";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Июля";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Июля";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Июля";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Июля";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Июля";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Июля";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Июля";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Июля";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Июля";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Июля";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Июля";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Июля";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Июля";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Июля";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Июля";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Июля";
+                break;
+            case 31:
+                cout << 31 << "ое " << "Июля";
+                break;
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+            }
+            break;
+        case 8:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Августа";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Августа";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Августа";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Августа";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Августа";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Августа";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Августа";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Августа";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Августа";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Августа";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Августа";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Августа";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Августа";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Августа";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Августа";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Августа";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Августа";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Августа";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Августа";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Августа";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Августа";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Августа";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Августа";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Августа";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Августа";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Августа";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Августа";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Августа";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Августа";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Августа";
+                break;
+            case 31:
+                cout << 31 << "ое " << "Августа";
+                break;
+
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+
+
+            }
+
+            break;
+        case 9:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Сетября";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Сетября";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Сетября";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Сетября";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Сетября";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Сетября";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Сетября";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Сетября";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Сетября";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Сетября";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Сетября";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Сетября";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Сетября";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Сетября";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Сетября";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Сетября";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Сетября";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Сетября";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Сетября";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Сетября";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Сетября";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Сетября";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Сетября";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Сетября";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Сетября";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Сетября";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Сетября";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Сетября";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Сетября";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Сетября";
+                break;
+           
+
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+
+
+            }
+
+            break;
+        case 10:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Октября";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Октября";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Октября";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Октября";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Октября";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Октября";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Октября";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Октября";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Октября";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Октября";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Октября";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Октября";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Октября";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Октября";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Октября";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Октября";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Октября";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Октября";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Октября";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Октября";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Октября";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Октября";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Октября";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Октября";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Октября";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Октября";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Октября";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Октября";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Октября";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Октября";
+                break;
+            case 31:
+                cout << 31 << "ое " << "Октября";
+                break;
+
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+
+
+            }
+        case 11:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Ноября";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Ноября";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Ноября";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Ноября";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Ноября";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Ноября";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Ноября";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Ноября";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Ноября";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Ноября";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Ноября";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Ноября";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Ноября";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Ноября";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Ноября";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Ноября";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Ноября";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Ноября";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Ноября";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Ноября";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Ноября";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Ноября";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Ноября";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Ноября";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Ноября";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Ноября";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Ноября";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Ноября";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Ноября";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Ноября";
+                break;
+            
+
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+
+
+            }
+
+            break;
+        case 12:
+
+            cout << "введите день месяца:\n";
+            cin >> d;
+            switch (d)
+            {
+            case 1:
+                cout << 1 << "ое " << "Декабря";
+                break;
+            case 2:
+                cout << 2 << "ое " << "Декабря";
+                break;
+            case 3:
+                cout << 3 << "ое " << "Декабря";
+                break;
+            case 4:
+                cout << 4 << "ое " << "Декабря";
+                break;
+            case 5:
+                cout << 5 << "ое " << "Декабря";
+                break;
+            case 6:
+                cout << 6 << "ое " << "Декабря";
+                break;
+            case 7:
+                cout << 7 << "ое " << "Декабря";
+                break;
+            case 8:
+                cout << 8 << "ое " << "Декабря";
+                break;
+            case 9:
+                cout << 9 << "ое " << "Декабря";
+                break;
+            case 10:
+                cout << 10 << "ое " << "Декабря";
+                break;
+            case 11:
+                cout << 11 << "ое " << "Декабря";
+                break;
+            case 12:
+                cout << 12 << "ое " << "Декабря";
+                break;
+            case 13:
+                cout << 13 << "ое " << "Декабря";
+                break;
+            case 14:
+                cout << 14 << "ое " << "Декабря";
+                break;
+            case 15:
+                cout << 15 << "ое " << "Декабря";
+                break;
+            case 16:
+                cout << 16 << "ое " << "Декабря";
+                break;
+            case 17:
+                cout << 17 << "ое " << "Декабря";
+                break;
+            case 18:
+                cout << 18 << "ое " << "Декабря";
+                break;
+            case 19:
+                cout << 19 << "ое " << "Декабря";
+                break;
+            case 20:
+                cout << 20 << "ое " << "Декабря";
+                break;
+            case 21:
+                cout << 21 << "ое " << "Декабря";
+                break;
+            case 22:
+                cout << 22 << "ое " << "Декабря";
+                break;
+            case 23:
+                cout << 23 << "ое " << "Декабря";
+                break;
+            case 24:
+                cout << 24 << "ое " << "Декабря";
+                break;
+            case 25:
+                cout << 25 << "ое " << "Декабря";
+                break;
+            case 26:
+                cout << 26 << "ое " << "Декабря";
+                break;
+            case 27:
+                cout << 27 << "ое " << "Декабря";
+                break;
+            case 28:
+                cout << 28 << "ое " << "Декабря";
+                break;
+            case 29:
+                cout << 29 << "ое " << "Декабря";
+                break;
+            case 30:
+                cout << 30 << "ое " << "Декабря";
+                break;
+            case 31:
+                cout << 31 << "ое " << "Декабря";
+                break;
+
+
+            default:
+                cout << "Нету такого дня в этом месяце";
+                break;
+
+
+            }
+        default:
+            cout << "нету такого";
+        }
+
+    }
+    
