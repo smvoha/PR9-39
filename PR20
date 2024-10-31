@@ -1,0 +1,75 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int m;
+    int a;
+	string s[15][15];
+    setlocale(0, "");
+    std::cout << "[ + ] Программа - “Лабиринт”\n\n[ + ] Размер карты:\n\n[ 1 ] 15 x 15\n[ 2 ] 20 x 20\n[ 3 ] 30 x 30\n\n[ + ] Выберите размер:";
+	cin >> a;
+	switch (a){
+	case 1:
+		
+		for (int iq = 0; iq < 15; iq++) {
+			for (int icq = 0; icq < 15; icq++) {
+				if (!((icq == 13&&iq>3)||(iq==3&&icq==1&&icq==12)||(icq == 4 && iq < 3)||(iq==3&&icq>=1&&icq<14))) {
+					s[iq][icq] = "ы";
+
+					cout << s[iq][icq];
+				}
+				else
+				s[iq][icq] = "  ";
+
+				cout << s[iq][icq];
+				
+				}
+			
+			cout << endl;
+		}  
+		break;
+	case 2:
+		for (int iq = 0; iq < 20; iq++) {
+			for (int icq = 0; icq < 20; icq++) {
+				if (!((icq == 13 && iq > 3) || (iq == 3 && icq == 1 && icq == 12) || (icq == 4 && iq < 3) || (iq == 3 && icq >= 1 && icq < 19a))) {
+					s[iq][icq] = "ы";
+
+					cout << s[iq][icq];
+				}
+				else
+					s[iq][icq] = "  ";
+
+				cout << s[iq][icq];
+
+			}
+
+			cout << endl;
+		}
+		break;
+	case 3:
+		for (int iq = 0; iq < 30; iq++) {
+			for (int icq = 0; icq < 30; icq++) {
+				if (!((icq == 13 && iq > 3) || (iq == 3 && icq == 1 && icq == 12) || (icq == 4 && iq < 3) || (iq == 3 && icq >= 1 && icq < 29))) {
+					s[iq][icq] = "ы";
+
+					cout << s[iq][icq];
+				}
+				else
+					s[iq][icq] = "  ";
+
+				cout << s[iq][icq];
+
+			}
+
+			cout << endl;
+		}
+		break;
+	default:
+		system("cls");
+		main();
+		break;
+	}
+}
+
+
