@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int num;
+	cout << "[ + ] Цикл \"WHILE\"\n[+] Введите число : ";
+	cin >> num;
+	while (true)
+	{
+		int i = 1;
+		if (num == 0) break;
+		else if (num >= 1 and num <= 15)
+			while (i <= num)
+			{
+				std::cout << "[ + ] Цикл отработал. Круг: " << i << std::endl;
+				i++;
+			}
+		else std::cout << "Ошибка ввода!\n";
+		cout << "[+] Введите число : ";
+		cin >> num;
+	}
+}
