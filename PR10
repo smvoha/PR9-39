@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int num;
+    	cout << "[ + ] Цикл \"WHILE\"\n[+] Введите число : ";
+	cin >> num;
+	while (true)
+	{
+	srand(time(0));
+        cout << "[1] Начать игру.\n[2] Выйти.\n";
+	int choose, trying = 10, attempt = 0, number;
+    	cin >> choose;
+	if (choose == 1)
+	{
+		while (true)
+		{
+			int num = rand() % 11;
+			    cout << "\n[ + ] Угаданных цифр: [ " << attempt << " / 3 ] \n[ + ] Попыток: [" << trying << "]\n\n";
+		    	cout << "[ > ] Угадать цифру: ";
+			    cin >> number;
+			if (number == num) {
+				std::cout << "[ + ] Вы угадали цифру!\n";
+				attempt++;
+				trying--;
+			}
+			else if (attempt == 3) std::cout << "Вы выйграли!";
+			else if (trying == 0) {
+				    cout << "Вы проиграли!";
+				break;
+			}
+			else if (number < 0 or number > 10) {
+				    cout << "Ошибка ввода!\n";
+				continue;
+			}
+			else if (number != num) {
+				    cout << "[ - ] Вы не угадали число!\n";
+				trying--;
+			}
+		}
+
+	}
+	}
+}
